@@ -1,17 +1,17 @@
-By Hackylu'x
+By 5H311_1NJ3C706
                
-                Fondateur d'Informatutos
+                Pendiri Informatutos
                 
                 
-           Remove error on termux v5
+           Hapus kesalahan pada termux v5
            
            WARNING: linker: Unsupported flags DT_FLAGS_1=0x8
 
 ------------------------------------------
-            In first go on termux
+            Pertama pergi pada termux
                   
                   
-               And follow all step ! 
+               Dan ikuti semua langkah ! 
                   
 👉 cd Termux-cleaner
 
@@ -19,22 +19,22 @@ By Hackylu'x
 
 👉 sh requirements.sh
 
-👉 Open new session
+👉 Buka Tab baru
 
 👉 cp -rf termux-elf-cleaner $PREFIX/bin
 
-👉 and do copy of this code and past on another new session
+👉 dan lakukan salinan kode ini
 
 👉 for i in $PREFIX/lib/*.so* ; do [ -z "$(readelf -d "$i" |grep NODELETE)" ] || echo "$i"; done 
 
-👉 After that you will see all paths who caused the WARNING: linker: Unsupported flags DT_FLAGS_1=0x8
+👉 Setelah itu Anda akan melihat semua jalur yang menyebabkan WARNING: linker: Unsupported flags DT_FLAGS_1=0x8
 
-👉 Now you will just copy the path and do that !!!! for example ......
+👉 Sekarang Anda hanya akan menyalin path dan melakukannya !!!! misalnya ......
 
 👉 termux-elf-cleaner /data/data/com.termux/files/usr/lib/libcrypto.so
 
-👉 Do that for all paths and you will remove all entryway errors
+👉 Apakah Anda ingin menghapus semua kesalahan pintu masuk?
 
-👉 Finished follow step on my video !!!
+👉 Selesai ikuti langkah pada video saya !!!
 
 ------------------------------------------
